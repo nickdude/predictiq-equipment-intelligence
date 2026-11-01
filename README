@@ -1,0 +1,40 @@
+cat > README.md <<'EOF'
+# PredictIQ - Equipment Intelligence Platform
+
+An enterprise-style predictive maintenance and AI-powered
+equipment intelligence platform.
+
+## Technology Stack
+
+- Databricks
+- PySpark
+- Delta Lake
+- Unity Catalog
+- Python
+- Scikit-learn
+- XGBoost
+- PyTorch
+- MLflow
+- React
+- Node.js
+- PostgreSQL
+- Generative AI
+- RAG
+
+## Project Objectives
+
+1. Build an end-to-end data engineering pipeline.
+2. Implement Bronze, Silver and Gold architecture.
+3. Train equipment failure prediction models.
+4. Implement anomaly detection.
+5. Predict Remaining Useful Life (RUL).
+6. Implement Generative AI and RAG.
+7. Build an enterprise-style application.
+
+## Initial Dataset
+
+AI4I 2020 Predictive Maintenance Dataset
+
+Source:
+https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
+EOF

@@ -1,0 +1,32 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+
+# Dataset files
+datasets/raw/*
+datasets/processed/*
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+
+# ML artifacts
+mlruns/
+artifacts/
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+EOF
